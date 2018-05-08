@@ -3,4 +3,3 @@ def non_prime?(num)
   prime.include?(num)
 end
 
-def 
