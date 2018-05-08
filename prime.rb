@@ -1,6 +1,9 @@
-def non_prime?(num)
-  prime = []
-  prime.include?(num)
-  return true
-end
-
+def prime?(num)
+return false if num < 2
+(2...num).each do |el|
++    if num % el == 0 
++      return false
++    end 
++  end
++  true
++end
